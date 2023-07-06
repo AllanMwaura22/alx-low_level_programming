@@ -3,10 +3,10 @@
 int actual_prime(int n, int i);
 
 /**
- *Function is_prime_number – determines if an integer is a prime number or not
+ * is_prime_number - Determines if an int is a prime number or not
  * @n: number to test
  *
- * 1 is returned if the int is prime and 0 if the int is not prime
+ * Return: 1 if n is a prime number, 0 if it is not
  */
 int is_prime_number(int n)
 {
@@ -16,11 +16,11 @@ int is_prime_number(int n)
 }
 
 /**
- * Function actual_prime - calculates if a number is prime recursively
+ * actual_prime - checks if a number is prime recursively
  * @n: number to test
  * @i: iterator
  *
- *1 is returned if the number is prime and 0 if the number is not 
+ * Return: 1 if n is prime, 0 if it is not
  */
 int actual_prime(int n, int i)
 {
