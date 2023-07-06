@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _print_rev_recursion – This Will Print a str in reverse.
+ * _print_rev_recursion - Prints a given str in reverse mode.
  * @s: The str to be printed.
  */
 void _print_rev_recursion(char *s)
