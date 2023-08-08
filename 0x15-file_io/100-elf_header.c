@@ -1,6 +1,6 @@
 /*
  * File: 100-elf_header.c
- * Auth: Allan Mwaura
+ * Auth: Brennan D Baraban
  */
 
 #include <elf.h>
@@ -316,6 +316,4 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 	free(header);
 	close_elf(o);
 	return (0);
-/*Writen By : Allan Mwaura*/
-
 }
